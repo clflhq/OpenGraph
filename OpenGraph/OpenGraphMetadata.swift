@@ -2,10 +2,10 @@ import Foundation
 
 public enum OpenGraphMetadata: String, CaseIterable {
     // Basic Metadata
-    case title
-    case type
-    case image
-    case url
+    case title = "og:title"
+    case type = "og:type"
+    case image = "og:image"
+    case url = "og:url"
     
     // Optional Metadata
     case audio
