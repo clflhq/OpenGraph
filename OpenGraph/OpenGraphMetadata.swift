@@ -63,12 +63,14 @@ public enum OpenGraphMetadata: String, CaseIterable {
     case profileUsername  = "profile:username"
     case profileGender    = "profile:gender"
     
-    case expiredAt      = "shpn:group_expired_at"
-    case remainNumber   = "shpn:group_remaining_number"
-    case discountRate   = "shpn:discount_rate"
-    case beforePrice    = "shpn:before_price_with_tax"
-    case afterPrice     = "shpn:after_price_with_tax"
-    case deliveryFee    = "shpn:delivery_fee"
+    case groupExpiredAt      = "shpn:group_expired_at"
+    case groupRemainNumber   = "shpn:group_remaining_number"
+    case groupId             = "shpn:group_id"
+    case discountRate        = "shpn:discount_rate"
+    case beforePriceWithTax  = "shpn:before_price_with_tax"
+    case afterPriceWithTax   = "shpn:after_price_with_tax"
+    case deliveryFee         = "shpn:delivery_fee"
+    case id                  = "shpn:id"
 }
 
 #if !swift(>=4.2)
