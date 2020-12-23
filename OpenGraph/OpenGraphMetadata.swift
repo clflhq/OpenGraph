@@ -70,7 +70,7 @@ public enum OpenGraphMetadata: String, CaseIterable {
     case beforePriceWithTax     = "og:shpn_before_price_with_tax"
     case afterPriceWithTax      = "og:shpn_after_price_with_tax"
     case deliveryFee            = "og:shpn_delivery_fee"
-    case id                     = "og:shpn_group_id"
+    case id                     = "og:shpn_id"
 }
 
 #if !swift(>=4.2)
