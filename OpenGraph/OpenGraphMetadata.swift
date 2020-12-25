@@ -67,7 +67,7 @@ public enum OpenGraphMetadata: String, CaseIterable {
     case groupRemainingNumber   = "og:shpn_group_remaining_number"
     case groupId                = "og:shpn_group_id"
     case discountRate           = "og:shpn_discount_rate"
-    case beforePriceWithTax     = "og:shpn_before_price_with_tax"
+    case originalPriceWithTax   = "og:shpn_original_price_with_tax"
     case afterPriceWithTax      = "og:shpn_after_price_with_tax"
     case deliveryFee            = "og:shpn_delivery_fee"
     case id                     = "og:shpn_id"
